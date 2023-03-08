@@ -1,0 +1,35 @@
+                                  Server creation
+
+1.  instal package.json  (npm init) 
+2.  Create node modules - install express - npm i express 
+3.  create index.js - main entry point
+4.  in index.js
+        a.  import express 
+        b.  create an app using express 
+        c.  setup a port number for communication
+        d.  use json parser for server responses 
+5.  Integration
+        a.  install cors
+        b.  import cors into index.js
+        c.  using cors describe the origin to the server
+                origin: 'http://localhost:4200'
+6.  service - Create a folder service
+        a.  Create dataservices.js and db.js
+7.  Backend and mongodb action
+        a.  install mongoose - npm i mongoose
+        b.  import mongoose into db.js
+        c.  Define the connection string
+                mongodb://localhost:27017/cart
+        d.  create model for collection(product) and export it
+8.  Resolving API calls in index.js
+        a.  import dataservises to  index
+9.    Create logic in dataservices
+        a.   import db
+        b.   get all products from db
+10. Create API calls
+
+
+
+
+
+                            

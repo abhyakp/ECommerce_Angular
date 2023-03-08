@@ -1,0 +1,38 @@
+Frontend designing
+
+1)add bootstrap
+2)run angular
+3)add bootstrap and js and fonts from fontawsome
+4)lazy loading
+  its a process of loading components, modules and 
+  it improves the application load time and performance
+create components should lazy loaded in the product modules
+   all-products
+   cart 
+   wish list
+setup path for each modules
+
+product-routing module
+
+page not fount component outside product module
+
+setting path for it in app.route.module
+
+creating header and footer components
+
+designing cart, wishlist and products
+
+integration with backend
+
+creating servises for api calling
+         ng g s products/api
+        import http client module in product module
+        dependency injection httpclientmodule class in api service
+
+page designing
+
+search for a product
+      ng g p products/pipes/filter
+
+
+

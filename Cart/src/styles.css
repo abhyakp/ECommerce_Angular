@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-top: 10px;
+    transition: 0.5;
+}
+.card-img-top:hover{
+    transform: scale(1.25);
+    transition: 0.5;
+}
